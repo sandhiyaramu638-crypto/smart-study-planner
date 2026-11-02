@@ -1,27 +1,26 @@
 # Smart Study Planner
 
-A Python and Flask web app for organizing study topics, exam dates, priorities, and study progress.
+A Python Flask web app to organize study topics, exam dates, priorities, and progress.
 
 ## Features
 
-- Add study sessions with subject, topic, study hours, priority, and exam date
-- View total study time and completed or remaining sessions
-- Mark sessions as completed or not completed
+- Add study sessions with subject, topic, hours, priority, and exam date
+- View completed and remaining sessions
 - Edit or delete study sessions
-- Save study session data in a JSON file
-- See the days remaining until each exam
+- Estimate remaining study time and suggested daily study hours
+- Save sessions locally in JSON format
 
 ## Built With
 
 - Python
 - Flask
 - HTML and CSS
-- JSON for data storage
+- JSON
 
-## Run Locally
+## Run Locally on Windows
 
-1. Install Python.
-2. Install Flask:
+1. Clone this repository:
 
-   ```bash
-   py -m pip install flask
+   ```powershell
+   git clone https://github.com/sandhiyaramu638-crypto/smart-study-planner.git
+   cd smart-study-planner
